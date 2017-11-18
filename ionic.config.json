@@ -1,0 +1,8 @@
+{
+  "name": "smartoffers",
+  "app_id": "dad2f695",
+  "type": "ionic-angular",
+  "integrations": {
+    "cordova": {}
+  }
+}
