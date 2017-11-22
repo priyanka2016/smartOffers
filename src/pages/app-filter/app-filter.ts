@@ -6,10 +6,10 @@ import { ConferenceData } from '../../providers/conference-data';
 
 
 @Component({
-  selector: 'page-schedule-filter',
-  templateUrl: 'schedule-filter.html'
+  selector: 'page-app-filter',
+  templateUrl: 'app-filter.html'
 })
-export class ScheduleFilterPage {
+export class AppFilterPage {
   tracks: Array<{name: string, isChecked: boolean}> = [];
 
   constructor(

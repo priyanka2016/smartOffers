@@ -12,7 +12,7 @@ import { ConferenceData } from '../../providers/conference-data';
 import { UserData } from '../../providers/user-data';
 
 import { SessionDetailPage } from '../session-detail/session-detail';
-import { ScheduleFilterPage } from '../schedule-filter/schedule-filter';
+import { AppFilterPage } from '../app-filter/app-filter';
 
 
 @Component({
@@ -61,7 +61,7 @@ export class SchedulePage {
   }
 
   presentFilter() {
-    let modal = this.modalCtrl.create(ScheduleFilterPage, this.excludeTracks);
+    let modal = this.modalCtrl.create(AppFilterPage, this.excludeTracks);
     modal.present();
 
     modal.onWillDismiss((data: any[]) => {
